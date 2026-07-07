@@ -8,7 +8,7 @@ const heroSlides = [
   {
     image: 'https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=1920&q=80',
     tag: 'Luxury Villas',
-    heading: 'Build Your Future\nWith Dhisha Realty',
+    heading: 'Build Your Future\nWith Disha Realty',
     sub: 'Trusted Real Estate Solutions for Homes, Villas, Plots & Commercial Properties',
   },
   {
@@ -26,42 +26,42 @@ const heroSlides = [
 ]
 
 const stats = [
-  { value: 10,  suffix: '+', label: 'Years of Experience', desc: 'Decades of market insight'  },
-  { value: 100, suffix: '+', label: 'Projects Completed',  desc: 'Successfully delivered'       },
-  { value: 200, suffix: '+', label: 'Happy Clients',       desc: 'Satisfied customers'          },
-  { value: 400, suffix: '+', label: 'Properties Sold',     desc: 'Across all categories'        },
+  { value: 10, suffix: '+', label: 'Years of Experience', desc: 'Decades of market insight' },
+  { value: 100, suffix: '+', label: 'Projects Completed', desc: 'Successfully delivered' },
+  { value: 200, suffix: '+', label: 'Happy Clients', desc: 'Satisfied customers' },
+  { value: 400, suffix: '+', label: 'Properties Sold', desc: 'Across all categories' },
 ]
 
 const services = [
-  { icon: '🏠', title: 'Residential Properties',      text: 'Find your dream home with carefully selected apartments, villas, and independent houses.' },
-  { icon: '🌿', title: 'Residential Plots',            text: 'Invest in legally approved plots in rapidly developing areas with excellent future growth.' },
-  { icon: '🏢', title: 'Commercial Properties',        text: 'Office spaces, retail shops, and commercial buildings in strategic business locations.' },
+  { icon: '🏠', title: 'Residential Properties', text: 'Find your dream home with carefully selected apartments, villas, and independent houses.' },
+  { icon: '🌿', title: 'Residential Plots', text: 'Invest in legally approved plots in rapidly developing areas with excellent future growth.' },
+  { icon: '🏢', title: 'Commercial Properties', text: 'Office spaces, retail shops, and commercial buildings in strategic business locations.' },
   { icon: '📈', title: 'Property Investment Consulting', text: 'Expert guidance on investments that maximize returns and minimize risks.' },
-  { icon: '🤝', title: 'Property Selling Assistance',  text: 'Sell faster with our professional marketing and extensive buyer network.' },
+  { icon: '🤝', title: 'Property Selling Assistance', text: 'Sell faster with our professional marketing and extensive buyer network.' },
   { icon: '📋', title: 'Legal & Documentation Support', text: 'Property verification, documentation, registration, and full legal compliance.' },
 ]
 
 const reasons = [
-  { title: 'Trusted Expertise',         text: 'Years of experience in understanding local real estate markets and trends.' },
-  { title: 'Verified Properties',        text: 'All listed properties undergo thorough verification for legal and ownership clarity.' },
+  { title: 'Trusted Expertise', text: 'Years of experience in understanding local real estate markets and trends.' },
+  { title: 'Verified Properties', text: 'All listed properties undergo thorough verification for legal and ownership clarity.' },
   { title: 'Customer-Centric Approach', text: 'We prioritize your needs and provide personalized property recommendations.' },
-  { title: 'Transparent Transactions',  text: 'No hidden charges. Complete transparency throughout the buying or selling process.' },
-  { title: 'End-to-End Support',         text: "From property search to registration, we're with you at every stage." },
+  { title: 'Transparent Transactions', text: 'No hidden charges. Complete transparency throughout the buying or selling process.' },
+  { title: 'End-to-End Support', text: "From property search to registration, we're with you at every stage." },
 ]
 
 const testimonials = [
-  { name: 'Rajesh Kumar', role: 'Property Buyer',  rating: 5, quote: 'Dhisha Realty helped us find the perfect residential plot. The entire process was transparent and professional. Truly a team you can trust.' },
-  { name: 'Priya Sharma', role: 'Investor',         rating: 5, quote: 'Excellent customer support and genuine property options. They guided me through every step. Highly recommended for property investments.' },
-  { name: 'Arjun Nair',   role: 'First-time Buyer', rating: 5, quote: 'The team guided us through every step, making our property purchase stress-free and smooth. Outstanding service from start to finish.' },
+  { name: 'Rajesh Kumar', role: 'Property Buyer', rating: 5, quote: 'Disha Realty helped us find the perfect residential plot. The entire process was transparent and professional. Truly a team you can trust.' },
+  { name: 'Priya Sharma', role: 'Investor', rating: 5, quote: 'Excellent customer support and genuine property options. They guided me through every step. Highly recommended for property investments.' },
+  { name: 'Arjun Nair', role: 'First-time Buyer', rating: 5, quote: 'The team guided us through every step, making our property purchase stress-free and smooth. Outstanding service from start to finish.' },
 ]
 
 const faqs = [
-  { q: 'What types of properties does Dhisha Realty offer?',                 a: 'We offer residential plots, apartments, villas, independent houses, commercial spaces, and retail properties across prime locations.' },
-  { q: 'Are all listed properties legally verified?',                        a: 'Yes, every property listed with us undergoes thorough legal verification including title checks, DTCP/RERA approvals, and ownership documentation review.' },
-  { q: 'Do you assist with home loans and financing?',                        a: 'We have partnerships with leading banks and financial institutions to help you secure the best loan options with competitive interest rates.' },
-  { q: 'How do I schedule a property site visit?',                           a: 'Simply contact us via phone, email, or the contact form on our website. Our team will schedule a convenient visit at your preferred time.' },
-  { q: 'What is the process for selling my property through Dhisha Realty?', a: 'We handle everything — property valuation, marketing, buyer matching, negotiations, and documentation — to ensure a quick, hassle-free sale.' },
-  { q: 'Do you handle RERA registration and legal documentation?',            a: 'Yes, our legal support team assists with RERA registration, sale deed drafting, stamp duty, and all related property documentation.' },
+  { q: 'What types of properties does Disha Realty offer?', a: 'We offer residential plots, apartments, villas, independent houses, commercial spaces, and retail properties across prime locations.' },
+  { q: 'Are all listed properties legally verified?', a: 'Yes, every property listed with us undergoes thorough legal verification including title checks, DTCP/RERA approvals, and ownership documentation review.' },
+  { q: 'Do you assist with home loans and financing?', a: 'We have partnerships with leading banks and financial institutions to help you secure the best loan options with competitive interest rates.' },
+  { q: 'How do I schedule a property site visit?', a: 'Simply contact us via phone, email, or the contact form on our website. Our team will schedule a convenient visit at your preferred time.' },
+  { q: 'What is the process for selling my property through Disha Realty?', a: 'We handle everything — property valuation, marketing, buyer matching, negotiations, and documentation — to ensure a quick, hassle-free sale.' },
+  { q: 'Do you handle RERA registration and legal documentation?', a: 'Yes, our legal support team assists with RERA registration, sale deed drafting, stamp duty, and all related property documentation.' },
 ]
 
 /* ── Stat item with count-up ── */
@@ -84,10 +84,19 @@ function StatItem({ s, i }) {
   )
 }
 
+/* ── Tailwind Shared Style Classes ── */
+const btnPrimary = "inline-flex items-center justify-center gap-2 min-h-[50px] px-8 rounded-[4px] font-sans text-[13px] font-semibold tracking-[0.8px] uppercase select-none cursor-pointer transition-all duration-300 ease-[cubic-bezier(0.22,1,0.36,1)] bg-accent text-white hover:bg-accent-light hover:-translate-y-0.5 hover:shadow-[0_10px_28px_rgba(26,122,110,0.35)]"
+const btnOutline = "inline-flex items-center justify-center gap-2 min-h-[50px] px-8 rounded-[4px] font-sans text-[13px] font-semibold tracking-[0.8px] uppercase select-none cursor-pointer transition-all duration-300 ease-[cubic-bezier(0.22,1,0.36,1)] bg-transparent text-white border-[1.5px] border-white/65 hover:bg-white/10 hover:border-white"
+const btnDark = "inline-flex items-center justify-center gap-2 min-h-[50px] px-8 rounded-[4px] font-sans text-[13px] font-semibold tracking-[0.8px] uppercase select-none cursor-pointer transition-all duration-300 ease-[cubic-bezier(0.22,1,0.36,1)] bg-ink text-white hover:bg-ink-light hover:-translate-y-0.5 hover:shadow-[0_10px_28px_rgba(13,30,44,0.28)]"
+
+const sectionKicker = "inline-block mb-3.5 text-accent text-xs font-semibold tracking-[2.5px] uppercase"
+const sectionTitle = "text-[clamp(28px,3.5vw,50px)] font-extrabold mb-4 text-ink leading-[1.08]"
+const sectionSubtitle = "text-[17px] text-body max-w-[580px] leading-[1.75]"
+
 /* ── HOME PAGE ── */
 export default function Home() {
   const [activeSlide, setActiveSlide] = useState(0)
-  const [openFaq,    setOpenFaq]    = useState(null)
+  const [openFaq, setOpenFaq] = useState(null)
   useScrollReveal()
 
   const nextSlide = useCallback(() => setActiveSlide(p => (p + 1) % heroSlides.length), [])
@@ -108,7 +117,8 @@ export default function Home() {
         {heroSlides.map((slide, i) => (
           <div
             key={i}
-            className={`hero-slide${i === activeSlide ? ' hero-slide--active' : ''}`}
+            className={`absolute inset-0 bg-cover bg-center transition-opacity duration-[1200ms] scale-[1.06] animate-[heroZoom_9s_ease-in-out_infinite] ${i === activeSlide ? 'opacity-100 z-[1]' : 'opacity-0 z-0'
+              }`}
             style={{ backgroundImage: `url(${slide.image})` }}
           />
         ))}
@@ -120,27 +130,27 @@ export default function Home() {
         />
 
         {/* Content */}
-        <div className="hero-content relative z-[3] text-center max-w-[860px] px-6">
+        <div className="relative z-[3] text-center max-w-[860px] px-6 animate-[heroFadeIn_0.9s_ease_forwards]">
           <p className="inline-block py-1.5 px-[18px] bg-accent/85 text-white text-[12px] font-bold tracking-[2px] uppercase rounded-sm mb-6 backdrop-blur-sm">
             {heroSlides[activeSlide].tag}
           </p>
           <h1
-            className="font-extrabold text-white leading-[1.05] mb-5 [text-shadow:0_4px_32px_rgba(0,0,0,0.3)]"
+            className="font-extrabold text-gray-300 leading-[1.05] mb-5 [text-shadow:0_4px_32px_rgba(0,0,0,0.3)]"
             style={{ fontSize: 'clamp(40px,6vw,80px)' }}
           >
             {heroSlides[activeSlide].heading.split('\n').map((line, i) => (
               <span key={i}>{line}<br /></span>
             ))}
           </h1>
-          <p
+          {/* <p
             className="text-white/82 leading-relaxed max-w-[620px] mx-auto mb-9"
             style={{ fontSize: 'clamp(15px,2vw,19px)' }}
           >
             {heroSlides[activeSlide].sub}
-          </p>
+          </p> */}
           <div className="flex gap-4 justify-center flex-wrap">
-            <Link to="/properties" className="btn btn-primary">Explore Properties</Link>
-            <Link to="/contact"    className="btn btn-outline">Contact Us</Link>
+            <Link to="/properties" className={btnPrimary}>Explore Properties</Link>
+            <Link to="/contact" className={btnOutline}>Contact Us</Link>
           </div>
         </div>
 
@@ -155,11 +165,10 @@ export default function Home() {
               key={i}
               role="tab"
               aria-selected={i === activeSlide}
-              className={`w-2.5 h-2.5 rounded-full border-2 bg-transparent cursor-pointer transition-all duration-300 p-0 ${
-                i === activeSlide
-                  ? 'bg-white border-white scale-[1.3]'
-                  : 'border-white/60'
-              }`}
+              className={`w-2.5 h-2.5 rounded-full border-2 bg-transparent cursor-pointer transition-all duration-300 p-0 ${i === activeSlide
+                ? 'bg-white border-white scale-[1.3]'
+                : 'border-white/60'
+                }`}
               onClick={() => setActiveSlide(i)}
               aria-label={`Slide ${i + 1}`}
             />
@@ -171,7 +180,7 @@ export default function Home() {
           className="absolute bottom-9 right-12 z-[4] w-7 h-11 border-2 border-white/45 rounded-[14px] flex justify-center pt-1.5 max-sm:hidden"
           aria-hidden="true"
         >
-          <span className="scroll-bounce w-1 h-2 bg-white/80 rounded-sm" />
+          <span className="animate-[scrollBounce_1.6s_ease-in-out_infinite] w-1 h-2 bg-white/80 rounded-sm" />
         </div>
       </section>
 
@@ -189,23 +198,23 @@ export default function Home() {
       <section className="py-[92px] bg-soft max-sm:py-16" id="services">
         <div className="max-w-[1240px] mx-auto px-[52px] max-lg:px-8 max-sm:px-5">
           <div className="mb-[52px] reveal">
-            <p className="section-kicker">What We Offer</p>
-            <h2 className="section-title">Comprehensive Real Estate Services</h2>
-            <p className="section-subtitle">
+            <p className={sectionKicker}>What We Offer</p>
+            <h2 className={sectionTitle}>Comprehensive Real Estate Services</h2>
+            {/* <p className={sectionSubtitle}>
               From finding your dream property to legal documentation — we handle it all with
               expertise and transparency.
-            </p>
+            </p> */}
           </div>
 
           <div className="grid grid-cols-3 gap-6 max-[900px]:grid-cols-2 max-sm:grid-cols-1">
             {services.map((s, i) => (
               <article
                 key={s.title}
-                className={`service-card-wrap reveal reveal-delay-${(i % 3) + 1} bg-white border border-line rounded-xl p-9 cursor-default transition-[transform,box-shadow,border-color] duration-[350ms] hover:-translate-y-1.5 hover:shadow-[0_20px_50px_rgba(0,0,0,0.08)] hover:border-[rgba(26,122,110,0.15)]`}
+                className={`group relative overflow-hidden after:content-[""] after:absolute after:bottom-0 after:left-0 after:right-0 after:h-[3px] after:bg-accent after:scale-x-0 after:origin-left after:transition-transform after:duration-400 hover:after:scale-x-100 reveal reveal-delay-${(i % 3) + 1} bg-white border border-line rounded-xl p-9 cursor-default transition-[transform,box-shadow,border-color] duration-[350ms] hover:-translate-y-1.5 hover:shadow-[0_20px_50px_rgba(0,0,0,0.08)] hover:border-[rgba(26,122,110,0.15)]`}
               >
                 <span className="text-[36px] mb-5 block">{s.icon}</span>
                 <h3 className="text-[19px] font-bold mb-3 text-ink">{s.title}</h3>
-                <p className="text-sm leading-[1.7] text-body m-0">{s.text}</p>
+                <p className="text-sm leading-[1.7] text-body m-0 max-h-0 opacity-0 overflow-hidden transition-all duration-[350ms] ease-in-out group-hover:max-h-[120px] group-hover:opacity-100 group-hover:mt-3">{s.text}</p>
                 <div className="w-10 h-[3px] bg-accent rounded-sm mt-5 transition-[width] duration-[350ms] group-hover:w-[70px]" />
               </article>
             ))}
@@ -235,8 +244,8 @@ export default function Home() {
 
           {/* Content */}
           <div>
-            <p className="section-kicker reveal">Why Choose Dhisha Realty?</p>
-            <h2 className="section-title reveal reveal-delay-1">Clear guidance from search to registration</h2>
+            <p className={`${sectionKicker} reveal`}>Why Choose Disha Realty?</p>
+            <h2 className={`${sectionTitle} reveal reveal-delay-1`}>Clear guidance from search to registration</h2>
 
             <div className="flex flex-col mt-7">
               {reasons.map((r, i) => (
@@ -250,7 +259,7 @@ export default function Home() {
                   </div>
                   <div>
                     <h3 className="text-base font-bold mb-1">{r.title}</h3>
-                    <p className="text-sm m-0 text-body leading-relaxed">{r.text}</p>
+                    {/* <p className="text-sm m-0 text-body leading-relaxed">{r.text}</p> */}
                   </div>
                 </article>
               ))}
@@ -263,15 +272,15 @@ export default function Home() {
       <section className="py-[92px] bg-soft max-sm:py-16">
         <div className="max-w-[1240px] mx-auto px-[52px] max-lg:px-8 max-sm:px-5">
           <div className="mb-[52px] reveal">
-            <p className="section-kicker">Featured Properties</p>
-            <h2 className="section-title">Selected Opportunities for Every Goal</h2>
+            <p className={sectionKicker}>Featured Properties</p>
+            <h2 className={sectionTitle}>Selected Opportunities for Every Goal</h2>
           </div>
 
           <div className="grid grid-cols-3 gap-6 max-[900px]:grid-cols-2 max-sm:grid-cols-1">
             {[
-              { title: 'Premium Residential Plot', tag: 'Plots',      img: 'https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=900&q=80', pts: ['Prime Location','DTCP / RERA Approved','Excellent Road Connectivity','Ready for Construction'] },
-              { title: 'Luxury Villa',              tag: 'Villas',     img: 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=900&q=80', pts: ['Modern Architecture','Spacious Interiors','Premium Amenities','Secure Community Living'] },
-              { title: 'Commercial Space',          tag: 'Commercial', img: 'https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=900&q=80', pts: ['High Visibility Location','Business-Friendly Environment','Excellent Investment Potential'] },
+              { title: 'Premium Residential Plot', tag: 'Plots', img: 'https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=900&q=80', pts: ['Prime Location', 'DTCP / RERA Approved', 'Excellent Road Connectivity', 'Ready for Construction'] },
+              { title: 'Luxury Villa', tag: 'Villas', img: 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=900&q=80', pts: ['Modern Architecture', 'Spacious Interiors', 'Premium Amenities', 'Secure Community Living'] },
+              { title: 'Commercial Space', tag: 'Commercial', img: 'https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=900&q=80', pts: ['High Visibility Location', 'Business-Friendly Environment', 'Excellent Investment Potential'] },
             ].map((p, i) => (
               <article
                 key={p.title}
@@ -309,7 +318,7 @@ export default function Home() {
           </div>
 
           <div className="text-center mt-12 reveal">
-            <Link to="/properties" className="btn btn-dark">View All Properties</Link>
+            <Link to="/properties" className={btnDark}>View All Properties</Link>
           </div>
         </div>
       </section>
@@ -318,10 +327,10 @@ export default function Home() {
       <section className="py-[92px] bg-ink">
         <div className="max-w-[1240px] mx-auto px-[52px] max-lg:px-8 max-sm:px-5">
           <div className="text-center mx-auto mb-[52px] reveal" style={{ maxWidth: 600 }}>
-            <p className="section-kicker" style={{ color: '#22a08f' }}>Testimonials</p>
-            <h2 className="section-title" style={{ color: '#fff' }}>What Our Clients Say</h2>
-            <p className="section-subtitle" style={{ color: 'rgba(255,255,255,0.6)', margin: '0 auto' }}>
-              Hear from homeowners, investors, and businesses who trusted Dhisha Realty.
+            <p className={sectionKicker} style={{ color: '#22a08f' }}>Testimonials</p>
+            <h2 className={sectionTitle} style={{ color: '#fff' }}>What Our Clients Say</h2>
+            <p className={sectionSubtitle} style={{ color: 'rgba(255,255,255,0.6)', margin: '0 auto' }}>
+              Hear from homeowners, investors, and businesses who trusted Disha Realty.
             </p>
           </div>
 
@@ -331,7 +340,7 @@ export default function Home() {
                 key={t.name}
                 className={`reveal reveal-delay-${i + 1} bg-white/5 border border-white/10 rounded-2xl p-9 transition-[transform,background,border-color] duration-[350ms] hover:-translate-y-1.5 hover:bg-white/8 hover:border-[rgba(26,122,110,0.4)]`}
               >
-                <div className="stars" aria-label={`${t.rating} out of 5 stars`}>
+                <div className="flex gap-[2px] text-gold text-[17px] mb-3 tracking-[1px]" aria-label={`${t.rating} out of 5 stars`}>
                   {'★'.repeat(t.rating)}
                 </div>
                 <blockquote className="text-[15px] text-white/80 leading-[1.7] m-0 mb-6 italic">
@@ -356,9 +365,9 @@ export default function Home() {
       <section className="py-[92px] bg-soft max-sm:py-16">
         <div className="max-w-[1240px] mx-auto px-[52px] max-lg:px-8 max-sm:px-5">
           <div className="max-w-[640px] mb-[52px] reveal">
-            <p className="section-kicker">FAQ</p>
-            <h2 className="section-title">Frequently Asked Questions</h2>
-            <p className="section-subtitle">Everything you need to know about working with Dhisha Realty.</p>
+            <p className={sectionKicker}>FAQ</p>
+            <h2 className={sectionTitle}>Frequently Asked Questions</h2>
+            <p className={sectionSubtitle}>Everything you need to know about working with Disha Realty.</p>
           </div>
 
           <div className="max-w-[820px] flex flex-col border-t border-line mt-2">
@@ -374,14 +383,13 @@ export default function Home() {
                 >
                   <span>{faq.q}</span>
                   <span
-                    className={`shrink-0 w-7 h-7 rounded-full grid place-items-center text-xl font-normal text-ink transition-all duration-300 ${
-                      openFaq === i ? 'bg-accent !text-white rotate-180' : 'bg-soft'
-                    }`}
+                    className={`shrink-0 w-7 h-7 rounded-full grid place-items-center text-xl font-normal text-ink transition-all duration-300 ${openFaq === i ? 'bg-accent !text-white rotate-180' : 'bg-soft'
+                      }`}
                   >
                     {openFaq === i ? '−' : '+'}
                   </span>
                 </button>
-                <div className={`faq-answer ${openFaq === i ? 'faq-answer--open' : ''}`}>
+                <div className={`transition-[max-height,padding] duration-[400ms] ease-in-out overflow-hidden ${openFaq === i ? 'max-h-[200px] pb-5' : 'max-h-0'}`}>
                   <p className="m-0 text-[15px] text-body leading-[1.7]">{faq.a}</p>
                 </div>
               </article>
@@ -397,18 +405,18 @@ export default function Home() {
           style={{ background: "url('https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1600&q=60') center / cover" }}
         />
         <div className="relative z-[1] max-w-[700px] mx-auto">
-          <p className="section-kicker" style={{ color: '#22a08f' }}>Ready to Begin?</p>
-          <h2 className="section-title !text-white" style={{ fontSize: 'clamp(32px,4vw,52px)', fontWeight: 900 }}>
+          <p className={sectionKicker} style={{ color: '#22a08f' }}>Ready to Begin?</p>
+          <h2 className={`${sectionTitle} !text-white`} style={{ fontSize: 'clamp(32px,4vw,52px)', fontWeight: 900 }}>
             Find Your Perfect Property Today
           </h2>
           <p className="text-[17px] text-white/70 mb-9 leading-[1.7]">
             Whether you're buying your first home, investing in land, or expanding your business space,
-            Dhisha Realty is here to help.{' '}
+            Disha Realty is here to help.{' '}
             <strong className="text-accent-light font-bold">Let's Build Your Future Together.</strong>
           </p>
           <div className="flex gap-4 justify-center flex-wrap">
-            <Link to="/properties" className="btn btn-primary">Explore Properties</Link>
-            <Link to="/contact"    className="btn btn-outline">Get In Touch</Link>
+            <Link to="/properties" className={btnPrimary}>Explore Properties</Link>
+            <Link to="/contact" className={btnOutline}>Get In Touch</Link>
           </div>
         </div>
       </section>

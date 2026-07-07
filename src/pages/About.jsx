@@ -34,6 +34,13 @@ function StatItem({ s, i }) {
   )
 }
 
+const btnPrimary = "inline-flex items-center justify-center gap-2 min-h-[50px] px-8 rounded-[4px] font-sans text-[13px] font-semibold tracking-[0.8px] uppercase select-none cursor-pointer transition-all duration-300 ease-[cubic-bezier(0.22,1,0.36,1)] bg-accent text-white hover:bg-accent-light hover:-translate-y-0.5 hover:shadow-[0_10px_28px_rgba(26,122,110,0.35)]"
+const btnOutline = "inline-flex items-center justify-center gap-2 min-h-[50px] px-8 rounded-[4px] font-sans text-[13px] font-semibold tracking-[0.8px] uppercase select-none cursor-pointer transition-all duration-300 ease-[cubic-bezier(0.22,1,0.36,1)] bg-transparent text-white border-[1.5px] border-white/65 hover:bg-white/10 hover:border-white"
+const btnDark = "inline-flex items-center justify-center gap-2 min-h-[50px] px-8 rounded-[4px] font-sans text-[13px] font-semibold tracking-[0.8px] uppercase select-none cursor-pointer transition-all duration-300 ease-[cubic-bezier(0.22,1,0.36,1)] bg-ink text-white hover:bg-ink-light hover:-translate-y-0.5 hover:shadow-[0_10px_28px_rgba(13,30,44,0.28)]"
+
+const sectionKicker = "inline-block mb-3.5 text-accent text-xs font-semibold tracking-[2.5px] uppercase"
+const sectionTitle = "text-[clamp(28px,3.5vw,50px)] font-extrabold mb-4 text-ink leading-[1.08]"
+
 export default function About() {
   useScrollReveal()
 
@@ -44,19 +51,20 @@ export default function About() {
       <section className="relative pt-[160px] px-[52px] pb-[100px] overflow-hidden bg-ink flex items-center justify-center text-center min-h-screen">
         <div className="absolute inset-0 z-0" aria-hidden="true">
           <svg className="w-full h-full object-cover" viewBox="0 0 800 600" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice">
-            <circle cx="700" cy="100" r="300" stroke="rgba(255,255,255,0.07)" strokeWidth="1"/>
-            <circle cx="700" cy="100" r="200" stroke="rgba(255,255,255,0.07)" strokeWidth="1"/>
-            <circle cx="700" cy="100" r="100" stroke="rgba(255,255,255,0.1)" strokeWidth="1"/>
-            <rect x="50" y="200" width="160" height="160" stroke="rgba(255,255,255,0.06)" strokeWidth="1" transform="rotate(15 130 280)"/>
-            <rect x="100" y="250" width="80" height="80" stroke="rgba(255,255,255,0.08)" strokeWidth="1" transform="rotate(15 140 290)"/>
-            <line x1="0" y1="400" x2="800" y2="100" stroke="rgba(255,255,255,0.04)" strokeWidth="1"/>
-            <line x1="0" y1="500" x2="800" y2="200" stroke="rgba(255,255,255,0.04)" strokeWidth="1"/>
+            <circle cx="700" cy="100" r="300" stroke="rgba(255,255,255,0.07)" strokeWidth="1" />
+            <circle cx="700" cy="100" r="200" stroke="rgba(255,255,255,0.07)" strokeWidth="1" />
+            <circle cx="700" cy="100" r="100" stroke="rgba(255,255,255,0.1)" strokeWidth="1" />
+            <rect x="50" y="200" width="160" height="160" stroke="rgba(255,255,255,0.06)" strokeWidth="1" transform="rotate(15 130 280)" />
+            <rect x="100" y="250" width="80" height="80" stroke="rgba(255,255,255,0.08)" strokeWidth="1" transform="rotate(15 140 290)" />
+            <line x1="0" y1="400" x2="800" y2="100" stroke="rgba(255,255,255,0.04)" strokeWidth="1" />
+            <line x1="0" y1="500" x2="800" y2="200" stroke="rgba(255,255,255,0.04)" strokeWidth="1" />
           </svg>
         </div>
         <div className="relative z-10 max-w-[700px]">
-          <p className="section-kicker !text-accent-light">About Us</p>
-          <h1 className="text-[clamp(36px,5vw,62px)] font-black text-white mb-5 tracking-[-0.02em]">Welcome to Dhisha Realty</h1>
-          <p className="text-lg text-white/65 max-w-[560px] mx-auto leading-[1.7]">A customer-focused real estate company dedicated to helping individuals and businesses find the right property solutions with transparency and trust.</p>
+          <p className={`${sectionKicker} !text-accent-light`}>About Us</p>
+          <h1 className="text-[clamp(36px,5vw,62px)] font-black text-white mb-5 tracking-[-0.02em]">Welcome to Disha Realty</h1>
+          {/* <p className="text-lg text-white/65 max-w-[560px] mx-auto leading-[1.7]">A customer-focused real estate company dedicated to helping individuals and businesses 
+          find the right property solutions with transparency and trust.</p> */}
         </div>
       </section>
 
@@ -65,10 +73,10 @@ export default function About() {
         <div className="max-w-[1200px] mx-auto px-[52px] max-lg:px-8 max-sm:px-5">
           <div className="grid grid-cols-[1.1fr_0.9fr] gap-[72px] items-center max-lg:grid-cols-1 max-lg:gap-10">
             <div className="reveal from-left">
-              <p className="section-kicker">Our Story</p>
-              <h2 className="section-title">Built on Trust, Driven by Purpose</h2>
+              <p className={sectionKicker}>Our Story</p>
+              <h2 className={sectionTitle}>Built on Trust, Driven by Purpose</h2>
               <p className="mb-[18px] text-[16px] leading-[1.8] text-body">
-                Dhisha Realty was founded with a simple yet powerful mission — to make property transactions
+                Disha Realty was founded with a simple yet powerful mission — to make property transactions
                 transparent, hassle-free, and customer-first. We understand that buying or selling a property
                 is one of the most significant decisions in your life, and we take that responsibility seriously.
               </p>
@@ -79,11 +87,11 @@ export default function About() {
                 estate opportunities.
               </p>
               <p className="mb-[18px] text-[16px] leading-[1.8] text-body">
-                From our roots as a local real estate consultancy, Dhisha Realty has grown into a trusted
+                From our roots as a local real estate consultancy, Disha Realty has grown into a trusted
                 name — backed by thousands of satisfied clients and a portfolio that spans residential plots,
                 luxury villas, commercial spaces, and everything in between.
               </p>
-              <Link to="/contact" className="btn btn-dark mt-2">
+              <Link to="/contact" className={`${btnDark} mt-2`}>
                 Talk to Our Team
               </Link>
             </div>
@@ -94,30 +102,30 @@ export default function About() {
                 <div className="relative z-[2] w-full max-w-[300px]">
                   <svg className="w-full h-auto" viewBox="0 0 300 360" fill="none" xmlns="http://www.w3.org/2000/svg">
                     {/* Building silhouette */}
-                    <rect x="60" y="100" width="180" height="240" fill="#0d1e2c" rx="4"/>
-                    <rect x="80" y="120" width="30" height="40" fill="rgba(255,255,255,0.15)" rx="2"/>
-                    <rect x="135" y="120" width="30" height="40" fill="rgba(255,255,255,0.15)" rx="2"/>
-                    <rect x="190" y="120" width="30" height="40" fill="rgba(255,255,255,0.15)" rx="2"/>
-                    <rect x="80" y="180" width="30" height="40" fill="rgba(255,255,255,0.1)" rx="2"/>
-                    <rect x="135" y="180" width="30" height="40" fill="#1a7a6e" rx="2" opacity="0.9"/>
-                    <rect x="190" y="180" width="30" height="40" fill="rgba(255,255,255,0.1)" rx="2"/>
-                    <rect x="80" y="240" width="30" height="40" fill="rgba(255,255,255,0.08)" rx="2"/>
-                    <rect x="135" y="240" width="30" height="40" fill="rgba(255,255,255,0.08)" rx="2"/>
-                    <rect x="190" y="240" width="30" height="40" fill="rgba(255,255,255,0.08)" rx="2"/>
-                    <rect x="120" y="300" width="60" height="40" fill="#1a7a6e" rx="2"/>
+                    <rect x="60" y="100" width="180" height="240" fill="#0d1e2c" rx="4" />
+                    <rect x="80" y="120" width="30" height="40" fill="rgba(255,255,255,0.15)" rx="2" />
+                    <rect x="135" y="120" width="30" height="40" fill="rgba(255,255,255,0.15)" rx="2" />
+                    <rect x="190" y="120" width="30" height="40" fill="rgba(255,255,255,0.15)" rx="2" />
+                    <rect x="80" y="180" width="30" height="40" fill="rgba(255,255,255,0.1)" rx="2" />
+                    <rect x="135" y="180" width="30" height="40" fill="#1a7a6e" rx="2" opacity="0.9" />
+                    <rect x="190" y="180" width="30" height="40" fill="rgba(255,255,255,0.1)" rx="2" />
+                    <rect x="80" y="240" width="30" height="40" fill="rgba(255,255,255,0.08)" rx="2" />
+                    <rect x="135" y="240" width="30" height="40" fill="rgba(255,255,255,0.08)" rx="2" />
+                    <rect x="190" y="240" width="30" height="40" fill="rgba(255,255,255,0.08)" rx="2" />
+                    <rect x="120" y="300" width="60" height="40" fill="#1a7a6e" rx="2" />
                     {/* Roof detail */}
                     <polygon points="60,100 150,40 240,100" fill="#1a3040" />
-                    <circle cx="150" cy="68" r="8" fill="#1a7a6e"/>
+                    <circle cx="150" cy="68" r="8" fill="#1a7a6e" />
                     {/* Decorative rings */}
-                    <circle cx="150" cy="180" r="130" stroke="#1a7a6e" strokeWidth="0.8" opacity="0.15" strokeDasharray="6 4"/>
-                    <circle cx="150" cy="180" r="155" stroke="#0d1e2c" strokeWidth="0.8" opacity="0.08" strokeDasharray="4 6"/>
+                    <circle cx="150" cy="180" r="130" stroke="#1a7a6e" strokeWidth="0.8" opacity="0.15" strokeDasharray="6 4" />
+                    <circle cx="150" cy="180" r="155" stroke="#0d1e2c" strokeWidth="0.8" opacity="0.08" strokeDasharray="4 6" />
                   </svg>
                 </div>
                 {/* Corner accents */}
-                <div className="absolute w-[60px] h-[60px] z-[1] top-4 left-4 border-t-3 border-l-3 border-accent rounded-tl"/>
-                <div className="absolute w-[60px] h-[60px] z-[1] bottom-4 right-4 border-b-3 border-r-3 border-accent rounded-br"/>
+                <div className="absolute w-[60px] h-[60px] z-[1] top-4 left-4 border-t-3 border-l-3 border-accent rounded-tl" />
+                <div className="absolute w-[60px] h-[60px] z-[1] bottom-4 right-4 border-b-3 border-r-3 border-accent rounded-br" />
                 <div className="absolute bottom-6 left-6 grid grid-cols-5 gap-2 z-0" aria-hidden="true">
-                  {Array.from({length: 25}).map((_,i) => <span key={i} className="w-1 h-1 rounded-full bg-accent opacity-25"/>)}
+                  {Array.from({ length: 25 }).map((_, i) => <span key={i} className="w-1 h-1 rounded-full bg-accent opacity-25" />)}
                 </div>
               </div>
             </div>
@@ -136,16 +144,16 @@ export default function About() {
       <section className="py-[92px] max-sm:py-16 bg-soft">
         <div className="max-w-[1200px] mx-auto px-[52px] max-lg:px-8 max-sm:px-5">
           <div className="text-center max-w-[600px] mx-auto mb-[52px] reveal">
-            <p className="section-kicker">What Drives Us</p>
-            <h2 className="section-title">Our Mission & Vision</h2>
+            <p className={sectionKicker}>What Drives Us</p>
+            <h2 className={sectionTitle}>Our Mission & Vision</h2>
           </div>
           <div className="grid grid-cols-2 gap-7 max-md:grid-cols-1">
-            <article className="mv-card-wrap bg-white border border-line rounded-2xl p-10 relative overflow-hidden transition-all duration-350 hover:-translate-y-1.5 hover:shadow-xl reveal reveal-delay-1">
+            <article className="relative overflow-hidden before:content-[''] before:absolute before:top-0 before:left-0 before:right-0 before:h-1 before:bg-gradient-to-r before:from-accent before:to-accent-light bg-white border border-line rounded-2xl p-10 transition-all duration-350 hover:-translate-y-1.5 hover:shadow-xl reveal reveal-delay-1">
               <div className="w-[60px] h-[60px] mb-6" aria-hidden="true">
                 <svg className="w-full h-full" viewBox="0 0 60 60" fill="none">
-                  <circle cx="30" cy="30" r="28" stroke="#1a7a6e" strokeWidth="1.5" strokeDasharray="4 3"/>
-                  <circle cx="30" cy="30" r="18" stroke="#1a7a6e" strokeWidth="1" opacity="0.5"/>
-                  <circle cx="30" cy="30" r="7" fill="#1a7a6e"/>
+                  <circle cx="30" cy="30" r="28" stroke="#1a7a6e" strokeWidth="1.5" strokeDasharray="4 3" />
+                  <circle cx="30" cy="30" r="18" stroke="#1a7a6e" strokeWidth="1" opacity="0.5" />
+                  <circle cx="30" cy="30" r="7" fill="#1a7a6e" />
                 </svg>
               </div>
               <h3 className="text-[22px] font-extrabold mb-3.5 text-ink">Our Mission</h3>
@@ -155,12 +163,12 @@ export default function About() {
                 property transactions and replace it with clarity and trust.
               </p>
             </article>
-            <article className="mv-card-wrap bg-white border border-line rounded-2xl p-10 relative overflow-hidden transition-all duration-350 hover:-translate-y-1.5 hover:shadow-xl reveal reveal-delay-2">
+            <article className="relative overflow-hidden before:content-[''] before:absolute before:top-0 before:left-0 before:right-0 before:h-1 before:bg-gradient-to-r before:from-accent before:to-accent-light bg-white border border-line rounded-2xl p-10 transition-all duration-350 hover:-translate-y-1.5 hover:shadow-xl reveal reveal-delay-2">
               <div className="w-[60px] h-[60px] mb-6" aria-hidden="true">
                 <svg className="w-full h-full" viewBox="0 0 60 60" fill="none">
-                  <polygon points="30,5 55,45 5,45" stroke="#1a7a6e" strokeWidth="1.5" strokeDasharray="4 3" fill="none"/>
-                  <polygon points="30,18 44,40 16,40" stroke="#1a7a6e" strokeWidth="1" opacity="0.5" fill="none"/>
-                  <circle cx="30" cy="32" r="4" fill="#1a7a6e"/>
+                  <polygon points="30,5 55,45 5,45" stroke="#1a7a6e" strokeWidth="1.5" strokeDasharray="4 3" fill="none" />
+                  <polygon points="30,18 44,40 16,40" stroke="#1a7a6e" strokeWidth="1" opacity="0.5" fill="none" />
+                  <circle cx="30" cy="32" r="4" fill="#1a7a6e" />
                 </svg>
               </div>
               <h3 className="text-[22px] font-extrabold mb-3.5 text-ink">Our Vision</h3>
@@ -178,8 +186,8 @@ export default function About() {
       <section className="py-[92px] max-sm:py-16 bg-white">
         <div className="max-w-[1200px] mx-auto px-[52px] max-lg:px-8 max-sm:px-5">
           <div className="text-center max-w-[600px] mx-auto mb-[52px] reveal">
-            <p className="section-kicker">Core Values</p>
-            <h2 className="section-title">The Principles We Live By</h2>
+            <p className={sectionKicker}>Core Values</p>
+            <h2 className={sectionTitle}>The Principles We Live By</h2>
           </div>
           <div className="grid grid-cols-4 gap-5 max-lg:grid-cols-2 max-sm:gap-3.5">
             {values.map((v, i) => (
@@ -198,12 +206,12 @@ export default function About() {
         <div className="max-w-[1200px] mx-auto px-[52px] max-lg:px-8 max-sm:px-5">
           <div className="grid grid-cols-[0.8fr_1.2fr] gap-[72px] items-start max-lg:grid-cols-1 max-lg:gap-10">
             <div className="reveal from-left">
-              <p className="section-kicker">Why Choose Us</p>
-              <h2 className="section-title">Clear guidance from search to registration</h2>
-              <p className="mt-4 max-w-[460px] text-body">
+              <p className={sectionKicker}>Why Choose Us</p>
+              <h2 className={sectionTitle}>Clear guidance from search to registration</h2>
+              {/* <p className="mt-4 max-w-[460px] text-body">
                 We combine local market knowledge with genuine care for our clients — making us
                 the preferred choice for thousands of property buyers and investors.
-              </p>
+              </p> */}
             </div>
             <div className="flex flex-col border-t border-line reveal from-right">
               {reasons.map((r, i) => (
@@ -211,7 +219,7 @@ export default function About() {
                   <span className="text-[30px] font-black text-accent/60 leading-none pt-1">{r.num}</span>
                   <div>
                     <h4 className="text-[16px] font-bold mb-1 text-ink">{r.title}</h4>
-                    <p className="text-sm m-0 leading-[1.65] text-body">{r.text}</p>
+                    {/* <p className="text-sm m-0 leading-[1.65] text-body">{r.text}</p> */}
                   </div>
                 </article>
               ))}
@@ -224,16 +232,16 @@ export default function About() {
       <section className="reveal scale relative bg-ink py-[92px] px-[52px] text-center overflow-hidden max-sm:py-16 max-sm:px-5">
         <div className="absolute inset-0 z-0" aria-hidden="true">
           <svg className="w-full h-full" viewBox="0 0 600 200" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice">
-            <circle cx="500" cy="100" r="180" stroke="rgba(255,255,255,0.05)" strokeWidth="1"/>
-            <circle cx="100" cy="100" r="120" stroke="rgba(255,255,255,0.05)" strokeWidth="1"/>
+            <circle cx="500" cy="100" r="180" stroke="rgba(255,255,255,0.05)" strokeWidth="1" />
+            <circle cx="100" cy="100" r="120" stroke="rgba(255,255,255,0.05)" strokeWidth="1" />
           </svg>
         </div>
         <div className="relative z-10 max-w-[640px] mx-auto">
           <h2 className="text-[clamp(28px,4vw,46px)] font-black text-white mb-4">Ready to Start Your Property Journey?</h2>
-          <p className="text-[17px] text-white/65 mb-9">Let Dhisha Realty be your trusted guide in finding the perfect property.</p>
+          {/* <p className="text-[17px] text-white/65 mb-9">Let Disha Realty be your trusted guide in finding the perfect property.</p> */}
           <div className="flex gap-4 justify-center flex-wrap">
-            <Link to="/properties" className="btn btn-primary">Explore Properties</Link>
-            <Link to="/contact" className="btn btn-outline">Contact Us</Link>
+            <Link to="/properties" className={btnPrimary}>Explore Properties</Link>
+            <Link to="/contact" className={btnOutline}>Contact Us</Link>
           </div>
         </div>
       </section>
