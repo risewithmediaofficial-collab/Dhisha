@@ -1,0 +1,7 @@
+services:
+  disha:
+    build: .
+    container_name: disha-app
+    restart: always
+    ports:
+      - "80:80"
