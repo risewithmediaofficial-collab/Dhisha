@@ -4,4 +4,4 @@ services:
     container_name: disha-app
     restart: always
     ports:
-      - "80:80"
+      - "84:80"
